@@ -3,7 +3,7 @@ package org.example;
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.Entity;
 
-@Entity
+@Entity(name = "payees")
 public class Payee extends PanacheEntity {
 
     public String payeeName;
